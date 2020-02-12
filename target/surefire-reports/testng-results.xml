@@ -1,57 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="tests.upgradeInterviewTest" duration-ms="178828" started-at="2020-02-12T16:37:28Z" finished-at="2020-02-12T16:40:27Z">
+  <suite name="tests.upgradeInterviewTest" duration-ms="40009" started-at="2020-02-12T16:53:21Z" finished-at="2020-02-12T16:54:01Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="178828" started-at="2020-02-12T16:37:28Z" finished-at="2020-02-12T16:40:27Z">
+    <test name="Command line test" duration-ms="40009" started-at="2020-02-12T16:53:21Z" finished-at="2020-02-12T16:54:01Z">
       <class name="tests.upgradeInterviewTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="setUp" is-config="true" duration-ms="969" started-at="2020-02-12T16:37:28Z" finished-at="2020-02-12T16:37:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.upgradeInterviewTest@61a485d2]" name="setUp" is-config="true" duration-ms="858" started-at="2020-02-12T16:53:21Z" finished-at="2020-02-12T16:53:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testUserFlow()[pri:1, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="testUserFlow" duration-ms="167060" started-at="2020-02-12T16:37:29Z" finished-at="2020-02-12T16:40:16Z">
+        <test-method status="PASS" signature="testUserFlow()[pri:1, instance:tests.upgradeInterviewTest@61a485d2]" name="testUserFlow" duration-ms="39001" started-at="2020-02-12T16:53:22Z" finished-at="2020-02-12T16:54:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserFlow -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="132" started-at="2020-02-12T16:40:16Z" finished-at="2020-02-12T16:40:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="setUp" is-config="true" duration-ms="537" started-at="2020-02-12T16:40:16Z" finished-at="2020-02-12T16:40:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAPIOne()[pri:2, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="testAPIOne" duration-ms="4491" started-at="2020-02-12T16:40:17Z" finished-at="2020-02-12T16:40:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAPIOne -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-02-12T16:40:21Z" finished-at="2020-02-12T16:40:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="setUp" is-config="true" duration-ms="555" started-at="2020-02-12T16:40:21Z" finished-at="2020-02-12T16:40:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAPITwo()[pri:2, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="testAPITwo" duration-ms="2379" started-at="2020-02-12T16:40:22Z" finished-at="2020-02-12T16:40:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAPITwo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="96" started-at="2020-02-12T16:40:24Z" finished-at="2020-02-12T16:40:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="setUp" is-config="true" duration-ms="702" started-at="2020-02-12T16:40:24Z" finished-at="2020-02-12T16:40:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAPIThree()[pri:3, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="testAPIThree" duration-ms="1701" started-at="2020-02-12T16:40:25Z" finished-at="2020-02-12T16:40:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAPIThree -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.upgradeInterviewTest@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="104" started-at="2020-02-12T16:40:27Z" finished-at="2020-02-12T16:40:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.upgradeInterviewTest@61a485d2]" name="tearDown" is-config="true" duration-ms="135" started-at="2020-02-12T16:54:01Z" finished-at="2020-02-12T16:54:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
