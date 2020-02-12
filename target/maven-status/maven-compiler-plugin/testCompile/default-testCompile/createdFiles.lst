@@ -1,0 +1,7 @@
+pages/pageLogin.class
+pages/pageCheckRate.class
+dataProviders/configFileReader.class
+tests/upgradeInterviewTest.class
+pages/pageBasicInfo.class
+pages/pageOffer.class
+helpers/helpers.class
