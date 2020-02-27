@@ -1,0 +1,61 @@
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class arrayCounter
+{
+
+
+    public static void main(String args[])
+    {
+
+        // Providing two arrays to be compared
+        int[] array1 = {1, 2, 3, 4, 5, 5, 5};
+        int[] array2 = {4, 5, 6, 4};
+
+        // Setting new integers that store arrays length and to sum of both
+        int aLen = array1.length;
+        int bLen = array2.length;
+        int[] result = new int[aLen + bLen];
+
+        // Using arraycopy function to copy arrays
+        System.arraycopy(array1, 0, result, 0, aLen);
+        System.arraycopy(array2, 0, result, aLen, bLen);
+
+        // Invoking arrayElementCount method to count the occurrences of elements
+        arrayElementCount(result);
+
+    }
+
+    static void arrayElementCount(int inputArray[])
+    {
+        //Creating a HashMap object with elements of inputArray as keys and their count as values
+
+        HashMap<Integer, Integer> elementCountMap = new HashMap<Integer, Integer>();
+
+        //checking every element of the inputArray
+
+        for (int i : inputArray)
+        {
+
+            if(elementCountMap.containsKey(i))
+            {
+                //If element is present in elementCountMap, incrementing it's count by 1
+
+                elementCountMap.put(i, elementCountMap.get(i)+1);
+            }
+            else
+            {
+                //If element is not present in elementCountMap,
+                //adding this element to elementCountMap with 1 as it's value
+
+                elementCountMap.put(i, 1);
+            }
+
+        }
+
+        System.out.println("Input Array : "+Arrays.toString(inputArray));
+
+        System.out.println("Element Count : "+elementCountMap);
+    }
+
+}
